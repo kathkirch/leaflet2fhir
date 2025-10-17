@@ -4,7 +4,7 @@ Research Artifacts
 A curated artifact set for mapping Austrian medicinal leaflets to FHIR R5.
 
 Overview
-This repository accompanies "INTEGRATING MEDICATION LEAFLETS UTILIZING FHIR AND AN LLM-BASED QUESTION-ANSWER PIPELINE IN A MOBILE APPLICATION" (2025) and distributes the research-facing assets that underpin the leaflet-to-FHIR pipeline while intentionally withholding the production ingestion stack, orchestration services, and mobile application used in deployment. You will find FSH definitions, IG configuration, prompt question sets, sample extractions, and evaluation notebooks. Proprietary backend code, security-hardened infrastructure, and commercialization components remain private to protect IP and mitigate supply-chain risk.
+This repository accompanies "INTEGRATING MEDICATION LEAFLETS UTILIZING FHIR AND AN LLM-BASED QUESTION-ANSWER PIPELINE IN A MOBILE APPLICATION" (2025). You will find FSH definitions, IG configuration, prompt question sets, sample extractions, and evaluation notebooks. 
 
 ### Repo Map
 ```text
