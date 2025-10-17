@@ -1,0 +1,12 @@
+# OS/Editor
+.DS_Store
+.idea
+.vscode
+
+# Node/SUSHI/Build
+node_modules/
+ig/output/
+
+# Misc
+*.log
+.env

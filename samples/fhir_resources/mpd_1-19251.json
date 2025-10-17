@@ -1,0 +1,624 @@
+{
+	"resourceType": "MedicinalProductDefinition",
+	"id": "9963",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+		"source": "#ZwHleVy5MQQgHTpA",
+		"profile": [
+			"http://localhost:8080/fhir/StructureDefinition/mpdProfile"
+		]
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">MedicianelProductDefinition resource, for Buscopan® plus Paracetamol 10 mg/ 500 mg Filmtabletten .</div>"
+	},
+	"contained": [
+		{
+			"resourceType": "Ingredient",
+			"id": "e7b34c84-2dd4-456f-8dde-de30683e29c1",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/active-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Active Ingredient</b></p><p><b>Name:</b> Hyoscin-N-butylbromid</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072072",
+						"display": "active"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Hyoscin-N-butylbromid"
+					}
+				},
+				"strength": [
+					{
+						"presentationRatio": {
+							"numerator": {
+								"value": 10.0,
+								"unit": "mg"
+							},
+							"denominator": {
+								"value": 1.0,
+								"unit": "Filmtablette"
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "0b592c2e-207e-4344-a6d7-5eb28bed0141",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/active-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Active Ingredient</b></p><p><b>Name:</b> Paracetamol</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072072",
+						"display": "active"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Paracetamol"
+					}
+				},
+				"strength": [
+					{
+						"presentationRatio": {
+							"numerator": {
+								"value": 500.0,
+								"unit": "mg"
+							},
+							"denominator": {
+								"value": 1.0,
+								"unit": "Filmtablette"
+							}
+						}
+					}
+				]
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "a7853e78-91dc-4e9a-9239-d2f4f273e0e5",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Ethylcellulose</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Ethylcellulose"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "8b2fbe6c-d65c-4f63-b75d-cf94dc8c2dcc",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> hochdisperse Kieselsäure</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "hochdisperse Kieselsäure"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "1a8dd9a3-3842-4a6a-a2ee-1051ed6ed48d",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Magnesiumstearat</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Magnesiumstearat"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "0cac38b8-7036-4562-9a22-687025b4fd77",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Maisstärke</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Maisstärke"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "518a47b9-a0f5-480a-87b5-f855980616e4",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> mikrokristalline Cellulose</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "mikrokristalline Cellulose"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "98e831af-78ca-4abf-aafe-7d2eea65ffed",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Carmellose-Natrium</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Carmellose-Natrium"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "ede5e627-11d2-4199-8954-03c358a68b0e",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Dimeticon</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Dimeticon"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "4fdc8ba7-8725-4fbb-bc72-e243ad7b28fb",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Hypromellose</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Hypromellose"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "eb245465-ceca-4ee0-9893-5d328b0ea35d",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Macrogol 6000</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Macrogol 6000"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "f7575fb4-437e-4a37-b8b4-9ebabbfb0f67",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Methacrylsäure-Methylmethacrylat-Copolymer</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Methacrylsäure-Methylmethacrylat-Copolymer"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "7afea0a0-1534-422c-a4a9-9e7b1a7bfa91",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Talkum</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Talkum"
+					}
+				}
+			}
+		},
+		{
+			"resourceType": "Ingredient",
+			"id": "5db5283a-9870-4fbf-a61e-0aaf57e31cd3",
+			"meta": {
+				"profile": [
+					"http://localhost:8080/fhir/StructureDefinition/excipient-ingredient"
+				]
+			},
+			"text": {
+				"status": "generated",
+				"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Excipient Ingredient</b></p><p><b>Name:</b> Titandioxid (E171)</p></div>"
+			},
+			"status": "active",
+			"for": [
+				{
+					"reference": "#"
+				}
+			],
+			"role": {
+				"coding": [
+					{
+						"system": "http://hl7.org/fhir/ingredient-role",
+						"code": "100000072082",
+						"display": "excipient"
+					}
+				]
+			},
+			"substance": {
+				"code": {
+					"concept": {
+						"text": "Titandioxid (E171)"
+					}
+				}
+			}
+		}
+	],
+	"identifier": [
+		{
+			"value": "1-19251"
+		}
+	],
+	"statusDate": "2024-01-01",
+	"description": "Buscopan plus Paracetamol enthält zwei Wirkstoffe: Hyoscin-N-butylbromid und Paracetamol. Hyoscin-N-butylbromid hat eine krampflösende Wirkung auf die glatte Muskulatur des Magen-Darm-Traktes, der Gallen- und Harnwege sowie der weiblichen Geschlechtsorgane. Paracetamol wirkt schmerzstillend, fiebersenkend und entzündungshemmend.",
+	"indication": "Krampfartige Schmerzen im Bereich des Magen-Darm-Traktes; krampfartige Schmerzen der Gallen- und Harnwege; krampfartige Schmerzen der weiblichen Geschlechtsorgane während der Monatsblutung.",
+	"contact": [
+		{
+			"type": {
+				"text": "Zulasser"
+			},
+			"contact": {
+				"reference": "Organization/13"
+			}
+		},
+		{
+			"type": {
+				"text": "Hersteller"
+			},
+			"contact": {
+				"reference": "Organization/9962"
+			}
+		}
+	],
+	"name": [
+		{
+			"productName": "Buscopan® plus Paracetamol 10 mg/ 500 mg Filmtabletten",
+			"part": [
+				{
+					"part": "Filmtabletten",
+					"type": {
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/medicinal-product-name-part-type",
+								"code": "DoseFormPart",
+								"display": "Pharmaceutical dose form part"
+							}
+						],
+						"text": "Filmtabletten"
+					}
+				},
+				{
+					"part": "10 mg/500 mg",
+					"type": {
+						"coding": [
+							{
+								"system": "http://hl7.org/fhir/medicinal-product-name-part-type",
+								"code": "StrengthPart",
+								"display": "Strength Part"
+							}
+						],
+						"text": "10 mg/500 mg"
+					}
+				}
+			],
+			"usage": [
+				{
+					"country": {
+						"coding": [
+							{
+								"system": "urn:iso:std:iso:3166",
+								"code": "AT",
+								"display": "Austria"
+							}
+						]
+					},
+					"jurisdiction": {
+						"coding": [
+							{
+								"system": "urn:iso:std:iso:3166",
+								"code": "AT"
+							}
+						]
+					},
+					"language": {
+						"coding": [
+							{
+								"system": "urn:ietf:bcp:47",
+								"code": "de"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

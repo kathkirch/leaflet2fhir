@@ -1,0 +1,2029 @@
+{
+	"resourceType": "Bundle",
+	"id": "c82654cd-93c6-4193-a8bb-e6fe6a6630b7",
+	"meta": {
+		"lastUpdated": "2025-10-17T08:41:44.276+00:00"
+	},
+	"type": "searchset",
+	"total": 57,
+	"link": [
+		{
+			"relation": "self",
+			"url": "http://localhost:8080/fhir/ClinicalUseDefinition?_count=100&subject%3AMedicinalProductDefinition.identifier=1-19251"
+		}
+	],
+	"entry": [
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9977",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9977",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: weitere Überempfindlichkeitsreaktionen</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "weitere Überempfindlichkeitsreaktionen"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9987",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9987",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "bei Ihnen eine krankhafte Erweiterung des Dickdarms vorliegt"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10011",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10011",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Nach längerer Anwendung wird Ihr Arzt Kontrollen (z. B. Leberfunktion, Nierenfunktion, Blutbild) vornehmen."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10014",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10014",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Auch wenn Sie keine Lebererkrankung haben, können Leberschädigungen sogar bei geringen Dosierungen bzw. bei kurzeitigem Gebrauch auftreten."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9974",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9974",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Atemnot</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Atemnot"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9997",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9997",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Arzneimittel, die eine Verlangsamung der Magenentleerung bewirken, können zu einer verminderten Aufnahme und verzögerten Wirkung von Paracetamol führen"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10004",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10004",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Schwangerschaft und Stillzeit, Wenn Sie schwanger sind oder stillen, oder wenn Sie vermuten, schwanger zu sein oder beabsichtigen, schwanger zu werden, fragen Sie vor der Einnahme dieses Arzneimittels Ihren Arzt oder Apotheker um Rat. Die Einnahme von Buscopan plus Paracetamol in der Schwangerschaft wird nicht empfohlen. Der Übergang von Hyoscin-N-butylbromid, einem der Wirkstoffe von Buscopan plus Paracetamol, in die Muttermilch ist nicht untersucht. Daher ist die Einnahme von Buscopan plus Paracetamol in der Stillzeit vorsichtshalber zu vermeiden."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9964",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9964",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Übelkeit</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Übelkeit"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Gelegentlich (kann bis zu 1 von 100 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10009",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10009",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Ihr Arzt wird Ihnen bei Leber- oder Nierenfunktionsstörungen möglicherweise eine geringere Dosis verordnen oder empfehlen, das Dosierungsintervall (den zeitlichen Abstand zwischen zwei Einnahmen) zu verlängern."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10019",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10019",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Bei starken Schmerzen im Bauchraum sollten schmerzstillende Arzneimittel möglichst nicht vor der Untersuchung durch den Arzt eingenommen werden, da sie die Erkennung wichtiger Krankheitszeichen verschleiern können."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9992",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9992",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Probenecid reduziert die Paracetamol-Ausscheidung auf etwa die Hälfte"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9967",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9967",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Störung der Schweißdrüsentätigkeit</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Störung der Schweißdrüsentätigkeit"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Gelegentlich (kann bis zu 1 von 100 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10001",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10001",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Arzneimittel zur Korrektur der Darmbeweglichkeit (z. B. Metoclopramid) können in ihrer Wirkung durch Hyoscin-N-butylbromid verringert werden."
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9972",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9972",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Ausschlag</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Ausschlag"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Sehr selten (kann bis zu 1 von 10.000 Patienten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9969",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9969",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Blutdruckabfall einschließlich Schock</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Blutdruckabfall einschließlich Schock"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Selten (kann bis zu 1 von 1.000 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9982",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9982",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Überschuss an Säure im Blut</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Überschuss an Säure im Blut"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10016",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10016",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Ein plötzliches Absetzen von Schmerzmitteln wie Paracetamol nach längerer Anwendung in hoher Dosierung kann Entzugssymptome auslösen (z. B. Kopfschmerzen, Müdigkeit oder Nervosität), die gewöhnlich innerhalb weniger Tage verschwinden. Eine erneute Einnahme von Schmerzmitteln darf nur nach entsprechender Anordnung des Arztes und nach Abklingen der Entzugserscheinungen erfolgen."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9979",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9979",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Entzündung der Leber</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Entzündung der Leber"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10006",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10006",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Buscopan plus Paracetamol enthält Natrium, Dieses Arzneimittel enthält weniger als 1 mmol Natrium (23 mg) pro Filmtablette, d.h. es ist nahezu „natriumfrei“."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9989",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9989",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "Sie regelmäßig oder in größeren Mengen Alkohol trinken"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10010",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10010",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Sie müssen einen Arzt aufsuchen, wenn sich Ihre Beschwerden rasch verschlimmern; wenn die Schmerzen sich bei Berührung verschlimmern; wenn Ihre Körpertemperatur erhöht ist; wenn Ihnen übel wird oder Sie erbrechen müssen; wenn Ihr Blutdruck niedrig ist, Sie sich schwach fühlen oder zusammengebrochen sind; wenn Sie Blut im Stuhl oder unerwartete Änderungen der Darmtätigkeit (z. B. Durchfall) bemerken; wenn neue Beschwerden oder Rötungen oder Schwellungen auftreten; wenn Sie sich nach 3 Tagen nicht besser oder gar schlechter fühlen, da in diesen Fällen die Ursache Ihrer Beschwerden abgeklärt werden muss."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10000",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10000",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Antihistaminika, Amantadin, Chinidin, Disopyramid, tri- und tetrazyklische Antidepressiva, andere Anticholinergika, Antipsychotika und β-Sympathomimetika können in ihrer Wirkung durch Hyoscin-N-butylbromid verstärkt werden"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9999",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9999",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Die gleichzeitige Einnahme von Paracetamol und Zidovudin erhöht die Wahrscheinlichkeit einer Neutropenie"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9968",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9968",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Hautrötungen</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Hautrötungen"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Selten (kann bis zu 1 von 1.000 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9971",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9971",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Nesselsucht</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Nesselsucht"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Sehr selten (kann bis zu 1 von 10.000 Patienten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9981",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9981",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Harnverhaltung</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Harnverhaltung"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10007",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10007",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Bitte sprechen Sie mit Ihrem Arzt oder Apotheker, bevor Sie Buscopan plus Paracetamol einnehmen, wenn Sie einen erhöhten Augeninnendruck (Neigung zum Engwinkelglaukom) haben; wenn Sie unter chronischer Verstopfung leiden; wenn Sie Schwierigkeiten beim Harnlassen haben; wenn Sie unter zu schneller, unregelmäßiger Herzschlagfolge (Tachyarrhythmien) leiden; wenn Ihre Leberfunktion leicht bis mittelschwer eingeschränkt ist (z. B. nach einer Leberentzündung); wenn Ihre Nierenfunktion leicht bis mittelschwer eingeschränkt ist oder durch frühere Erkrankungen Nierenschäden bestehen; wenn bei Ihnen eine bestimmte erbliche, sehr seltene Stoffwechselerkrankung (Mangel an Glucose-6-phosphat-Dehydrogenase) vorliegt; wenn Sie am Gilbert-Syndrom (Meulengracht-Krankheit, einer seltenen erblichen Stoffwechselerkrankung) leiden; wenn Sie plötzlich einsetzende, starke, schneidende Schmerzen haben; wenn Sie chronisch alkoholkrank sind oder kürzlich einen Alkoholentzug begonnen haben; wenn bei Ihnen Mangelernährung oder Austrocknung (z. B. bei zu geringer Trinkmenge) vorliegen; wenn Sie allergisch gegen Acetylsalicylsäure oder andere entzündungshemmende Schmerz- und Rheumamittel (NSAR) sind."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9988",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9988",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "Ihre Leber- oder Nierenfunktion stark eingeschränkt ist"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9991",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9991",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Salicylamid bewirkt eine erhöhte schädigende Wirkung von Paracetamol infolge verzögerter Ausscheidung"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9978",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9978",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Atemnot durch Verkrampfung der Muskulatur der Bronchien</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Atemnot durch Verkrampfung der Muskulatur der Bronchien"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10017",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10017",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Vereinzelt wurden schwere akute Überempfindlichkeitsreaktionen (z. B. anaphylaktischer Schock) beobachtet. Daher muss die Behandlung mit Buscopan plus Paracetamol bei den ersten Anzeichen einer Überempfindlichkeitsreaktion abgebrochen werden. Kontaktieren Sie unverzüglich einen Arzt."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9998",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9998",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Arzneimittel, die eine Beschleunigung der Magenentleerung bewirken (z. B. Metoclopramid oder Domperidon), verstärken die Aufnahme von Paracetamol"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9980",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9980",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Erhöhung bestimmter Leberwerte</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Erhöhung bestimmter Leberwerte"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9990",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9990",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Arzneimittel, die die Leberfunktion beeinflussen, wie z. B. Barbiturate, Phenobarbital, Phenytoin, Glutethimid, Carbamazepin oder bestimmte Antibiotika (wie Rifampicin), verstärken die leberschädigende Wirkung von Paracetamol"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10008",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10008",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Sie müssen Ihren Arzt darauf hinweisen, wenn einer der vorstehend genannten Umstände auf Sie zutrifft."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10018",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10018",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Schwerwiegende Hautreaktionen: Im Zusammenhang mit der Anwendung von Paracetamol gab es Berichte über schwere Hautreaktionen. Falls bei Ihnen ein Hautausschlag auftritt (einschließlich Schleimhautschädigungen im Mund, Hals, Nase, Augen und Genitalbereich) beenden Sie bitte die Anwendung von Buscopan plus Paracetamol und holen Sie unverzüglich ärztlichen Rat ein."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9993",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9993",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Die schädigende Wirkung von Chloramphenicol wird durch eine verzögerte Ausscheidung von Chloramphenicol erhöht"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9970",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9970",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Beschleunigter Herzschlag</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Beschleunigter Herzschlag"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Selten (kann bis zu 1 von 1.000 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9986",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9986",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "bei Ihnen ein lähmender (paralytischer) oder mechanischer Darmverschluss (Ileus) festgestellt wurde"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9996",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9996",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Colestyramin vermindert die Aufnahme von Paracetamol"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9976",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9976",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Arzneimittelexanthem</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Arzneimittelexanthem"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10015",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10015",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Bei längerer Anwendung von Schmerzmitteln wie Paracetamol – vor allem in hoher Dosierung – können Kopfschmerzen auftreten, die nicht durch erhöhte Dosen desselben Arzneimittels behandelt werden dürfen. Falls Sie meinen, dass bei Ihnen derartige Kopfschmerzen vorliegen, lassen Sie sich bitte von Ihrem Arzt beraten."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10020",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10020",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Geben Sie Buscopan plus Paracetamol nicht Kindern unter 12 Jahren aufgrund des hohen Gehaltes an Paracetamol."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9983",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9983",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "Sie allergisch gegen Hyoscin-N-butylbromid, andere Bromide, Paracetamol oder einen der sonstigen Bestandteile dieses Arzneimittels sind"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10005",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10005",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Verkehrstüchtigkeit und Fähigkeit zum Bedienen von Maschinen, Es wurden keine Studien zu den Auswirkungen auf die Verkehrstüchtigkeit und die Fähigkeit zum Bedienen von Maschinen durchgeführt. Bei korrekter Einnahme sind jedoch keine Beeinträchtigungen bei der aktiven Teilnahme am Straßenverkehr oder beim Bedienen von Maschinen zu erwarten."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9973",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9973",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Veränderungen des Blutbildes</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Veränderungen des Blutbildes"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9995",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9995",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Flucloxacillin kann in Kombination mit Paracetamol zu Blut- und Flüssigkeitsanomalien führen"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9985",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9985",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "bei Ihnen eine organisch bedingte Verengung des Magen-Darm-Traktes festgestellt wurde oder ein Verdacht diesbezüglich besteht"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10013",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10013",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Bei längerem Gebrauch oder überhöhter Dosierung (mehr als 2,0 g Paracetamol pro Tag, entsprechend 4 Filmtabletten) sind Leber- und Nierenschädigungen nicht auszuschließen."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9966",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9966",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Mundtrockenheit</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Mundtrockenheit"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Gelegentlich (kann bis zu 1 von 100 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10002",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10002",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Beeinflussung von Labortests, Paracetamol kann bestimmte Laboruntersuchungen zur Bestimmung der Harnsäurewerte und der Blutzuckerwerte beeinträchtigen. Bitte informieren Sie daher den Arzt vor Laboruntersuchungen über die Einnahme von Buscopan plus Paracetamol Filmtabletten."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10012",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10012",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Um die Gefahr einer Überdosierung zu vermeiden, müssen Sie darauf achten, dass Sie gleichzeitig keine anderen Paracetamol-haltigen Arzneimittel anwenden."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9984",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9984",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/contraindication"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n <p>Contraindications</p>\n    \n    </div>"
+				},
+				"type": "contraindication",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"contraindication": {
+					"diseaseSymptomProcedure": {
+						"concept": {
+							"text": "Sie an einer bestimmten Form von Muskelschwäche (Myasthenia gravis) leiden"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9965",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9965",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Hautreaktionen</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Hautreaktionen"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Gelegentlich (kann bis zu 1 von 100 Behandelten betreffen)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9975",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9975",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>SideEffect: Störungen oder Versagen des Herz-Kreislauf-Systems</p>\n\n</div>"
+				},
+				"type": "undesirable-effect",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"undesirableEffect": {
+					"symptomConditionEffect": {
+						"concept": {
+							"text": "Störungen oder Versagen des Herz-Kreislauf-Systems"
+						}
+					},
+					"frequencyOfOccurrence": {
+						"text": "Nicht bekannt (Häufigkeit auf Grundlage der verfügbaren Daten nicht abschätzbar)"
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/9994",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "9994",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/interaction"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Interaction</p>\n\n</div>"
+				},
+				"type": "interaction",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"interaction": {
+					"type": {
+						"text": "Wechselwirkung mit anderen Medikamenten"
+					},
+					"effect": {
+						"concept": {
+							"text": "Paracetamol kann das Blutungsrisiko bei Patienten, die Warfarin und andere Vitamin K-Antagonisten einnehmen, erhöhen"
+						}
+					}
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		},
+		{
+			"fullUrl": "http://localhost:8080/fhir/ClinicalUseDefinition/10003",
+			"resource": {
+				"resourceType": "ClinicalUseDefinition",
+				"id": "10003",
+				"meta": {
+					"versionId": "1",
+					"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+					"source": "#ZwHleVy5MQQgHTpA",
+					"profile": [
+						"http://localhost:8080/fhir/StructureDefinition/warning"
+					]
+				},
+				"text": {
+					"status": "generated",
+					"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\n<p>Warning</p>\n\n</div>"
+				},
+				"type": "warning",
+				"subject": [
+					{
+						"reference": "MedicinalProductDefinition/9963"
+					}
+				],
+				"warning": {
+					"description": "Einnahme von Buscopan plus Paracetamol zusammen mit Nahrungsmitteln, Getränken und Alkohol, Gleichzeitiger Alkoholkonsum erhöht die Gefahr einer Leberschädigung bei normalerweise harmlosen Paracetamol-Dosen und soll daher vermieden werden! Dies gilt insbesondere für Alkoholmissbrauch."
+				}
+			},
+			"search": {
+				"mode": "match"
+			}
+		}
+	]
+}

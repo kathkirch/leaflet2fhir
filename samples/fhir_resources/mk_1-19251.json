@@ -1,0 +1,435 @@
+{
+	"resourceType": "MedicationKnowledge",
+	"id": "10021",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2024-11-28T17:49:32.713+00:00",
+		"source": "#ZwHleVy5MQQgHTpA",
+		"profile": [
+			"http://localhost:8080/fhir/StructureDefinition/medicationKnowledge-leaflet"
+		]
+	},
+	"identifier": [
+		{
+			"value": "1-19251"
+		}
+	],
+	"status": "active",
+	"indicationGuideline": [
+		{
+			"dosingGuideline": [
+				{
+					"dosage": [
+						{
+							"type": {
+								"coding": [
+									{
+										"system": "http://snomed.info/sct",
+										"code": "223422006",
+										"display": "Recommendation regarding what to do if drug omitted"
+									}
+								],
+								"text": "Wenn Sie die Einnahme von Buscopan plus Paracetamol vergessen haben"
+							},
+							"dosage": [
+								{
+									"patientInstruction": "Setzen Sie die Einnahme zum nächsten Zeitpunkt fort. Nehmen Sie nicht die doppelte Menge ein, wenn Sie die vorherige Einnahme vergessen haben."
+								}
+							]
+						}
+					]
+				},
+				{
+					"dosage": [
+						{
+							"type": {
+								"coding": [
+									{
+										"system": "http://snomed.info/sct",
+										"code": "410546004",
+										"display": "Discontinued"
+									}
+								],
+								"text": "Wenn Sie die Einnahme von Buscopan plus Paracetamol abbrechen"
+							},
+							"dosage": [
+								{
+									"patientInstruction": "Buscopan plus Paracetamol Filmtabletten werden nur bei Bedarf eingenommen und sollen nach Abklingen der Beschwerden abgesetzt werden. Ein plötzliches Absetzen von Schmerzmitteln wie Paracetamol nach längerer Anwendung in hoher Dosierung kann Entzugssymptome auslösen, die gewöhnlich innerhalb weniger Tage verschwinden. Eine erneute Einnahme von Schmerzmitteln darf nur nach entsprechender Anordnung des Arztes und nach Abklingen der Entzugserscheinungen erfolgen."
+								}
+							]
+						}
+					]
+				},
+				{
+					"dosage": [
+						{
+							"type": {
+								"coding": [
+									{
+										"system": "http://snomed.info/sct",
+										"code": "260378005",
+										"display": "Excessive"
+									}
+								],
+								"text": "Wenn Sie eine größere Menge von Buscopan plus Paracetamol eingenommen haben, als Sie sollten"
+							},
+							"dosage": [
+								{
+									"patientInstruction": "Wenn Sie mehr als die vorgeschriebene Dosis eingenommen haben oder ein Kind Filmtabletten geschluckt hat, verständigen Sie bitte unverzüglich einen Arzt, auch wenn noch keine Beschwerden bestehen. Halten Sie eine Packung des Arzneimittels bereit, damit sich der Arzt über die aufgenommenen Wirkstoffe informieren kann. Er wird über notwendige Maßnahmen entscheiden. Anzeichen einer Vergiftung mit Paracetamol treten in der Regel innerhalb von 24 Stunden auf und umfassen Übelkeit, Erbrechen, Appetitlosigkeit, Blässe und Unterleibsschmerzen. Eine Überdosierung kann bleibende Leberschäden verursachen, die zu Leberversagen, Blutungen im Magen-Darm-Trakt, Blutübersäuerung, Enzephalopathie, stark erhöhter Blutungsneigung, Koma und Tod führen können. Klinische Beschwerden der Leberschäden werden in der Regel nach 2 Tagen sichtbar und erreichen nach 4 bis 6 Tagen ein Maximum. Überdosierung kann auch zu Bauchspeicheldrüsenentzündung, akutem Nierenversagen, Störungen der Herzfunktion und Panzytopenie führen. Bei älteren Personen, Kleinkindern sowie Patienten mit eingeschränkter Leberfunktion, chronischem Alkoholkonsum oder chronischer Mangelernährung besteht ein erhöhtes Risiko einer Paracetamolvergiftung mit möglicherweise tödlichem Ausgang. Anzeichen einer Vergiftung mit Hyoscin-N-butylbromid können Harnverhaltung, Mundtrockenheit, beschleunigter Herzschlag, Hemmung der Darmbeweglichkeit, Benommenheit und vorübergehende Sehstörungen sein."
+								}
+							]
+						}
+					]
+				},
+				{
+					"dosage": [
+						{
+							"type": {
+								"coding": [
+									{
+										"system": "http://snomed.info/sct",
+										"code": "261773006",
+										"display": "Duration of therapy"
+									}
+								],
+								"text": "Maximale Einnahmedauer wenn nicht anders ärztlich verordnet"
+							},
+							"dosage": [
+								{
+									"patientInstruction": "Ohne ärztliche Beratung sollen Buscopan plus Paracetamol 10 mg/500 mg Filmtabletten nicht länger als 3 Tage eingenommen werden."
+								}
+							]
+						}
+					]
+				},
+				{
+					"dosage": [
+						{
+							"type": {
+								"coding": [
+									{
+										"system": "http://snomed.info/sct",
+										"code": "422096002",
+										"display": "Dosing instruction fragment"
+									}
+								],
+								"text": "Empfohlene Einnahme wenn nicht anders ärztlich verordnet"
+							},
+							"dosage": [
+								{
+									"additionalInstruction": [
+										{
+											"text": "Die Filmtabletten sind unzerkaut mit ausreichend Flüssigkeit einzunehmen. Die Kerbe dient nicht zum Teilen der Tablette."
+										}
+									],
+									"patientInstruction": "Nehmen Sie dieses Arzneimittel immer genau wie in dieser Packungsbeilage beschrieben bzw. genau nach Anweisung Ihres Arztes oder Apothekers ein. Die empfohlene Dosis für Erwachsene und Jugendliche über 12 Jahre beträgt 3 Mal täglich 1 Filmtablette. Im Bedarfsfall kann eine Einzelgabe von 2 Filmtabletten erfolgen. Eine Tageshöchstdosis von 4 Filmtabletten darf nicht überschritten werden. Der zeitliche Abstand soll mindestens 8 Stunden bis zur nächsten Anwendung betragen. Für ältere Patienten gelten die gleichen Dosierungsempfehlungen. Falls Sie an einer Störung der Leber- oder Nierenfunktion leiden, wird Ihr Arzt Ihnen möglicherweise eine geringere Dosis verordnen oder empfehlen, das Dosierungsintervall zu verlängern. Bei schweren Störungen der Leber- oder Nierenfunktion dürfen die Filmtabletten nicht eingenommen werden. Buscopan plus Paracetamol Filmtabletten werden aufgrund des hohen Gehaltes an Paracetamol nicht empfohlen für die Anwendung bei Kindern unter 12 Jahren. Für Jugendliche gelten die Dosierungsempfehlungen für Erwachsene.",
+									"route": {
+										"text": "Zum Einnehmen."
+									},
+									"doseAndRate": [
+										{
+											"doseQuantity": {
+												"value": 1.0,
+												"unit": "Filmtablette"
+											}
+										}
+									],
+									"maxDosePerPeriod": [
+										{
+											"numerator": {
+												"value": 4.0,
+												"unit": "Filmtablette"
+											},
+											"denominator": {
+												"value": 1.0,
+												"unit": "Tag"
+											}
+										}
+									],
+									"maxDosePerAdministration": {
+										"value": 2.0,
+										"unit": "Filmtablette"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"clinicalUseIssue": [
+		{
+			"reference": "ClinicalUseDefinition/9580",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9964",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9965",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9966",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9967",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9968",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9969",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9970",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9971",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9972",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9973",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9974",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9975",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9976",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9977",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9978",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9979",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9980",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9981",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9982",
+			"display": "http://localhost:8080/fhir/StructureDefinition/undesirable-effect"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9580",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9983",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9984",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9985",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9986",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9987",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9988",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9989",
+			"display": "http://localhost:8080/fhir/StructureDefinition/contraindication"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9580",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9990",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9991",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9992",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9993",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9994",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9995",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9996",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9997",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9998",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9999",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10000",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10001",
+			"display": "http://localhost:8080/fhir/StructureDefinition/interaction"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9580",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10002",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10003",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10004",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10005",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10006",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/9580",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10007",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10008",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10009",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10010",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10011",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10012",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10013",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10014",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10015",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10016",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10017",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10018",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10019",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		},
+		{
+			"reference": "ClinicalUseDefinition/10020",
+			"display": "http://localhost:8080/fhir/StructureDefinition/warning"
+		}
+	],
+	"storageGuideline": [
+		{
+			"note": [
+				{
+					"text": "Buscopan plus Paracetamol sollte nicht über 30 °C gelagert werden und muss für Kinder unzugänglich aufbewahrt werden. Das Arzneimittel darf nach dem auf dem Umkarton angegebenen Verfalldatum nicht mehr verwendet werden, wobei das Verfalldatum sich auf den letzten Tag des angegebenen Monats bezieht. Entsorgen Sie das Arzneimittel nicht im Abwasser oder Haushaltsabfall, sondern fragen Sie Ihren Apotheker, wie es zu entsorgen ist, um zum Schutz der Umwelt beizutragen."
+				}
+			]
+		}
+	],
+	"definitional": {
+		"definition": [
+			{
+				"reference": "MedicinalProductDefinition/9963"
+			}
+		],
+		"doseForm": {
+			"text": "Filmtablette"
+		},
+		"drugCharacteristic": [
+			{
+				"valueString": "Weiße, längliche, beiderseits nach außen gewölbte Filmtabletten mit einer Kerbe auf einer Seite. Beiderseits der Kerbe ist der Code „05B“ eingeprägt."
+			}
+		]
+	}
+}
