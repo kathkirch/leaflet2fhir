@@ -12,16 +12,19 @@ Assets
 - Aggregation at two levels: mean per question set and mean per field across leaflets.
 - Error categories: Assignment (A), Missing (M), Interpretation (I), False/Hallucination (F) 
 
-# How to run:
-## Set up Python env with Poetry
+### How to run:
+#### Set up Python env with Poetry:
+```bash
 poetry install
-
-## Span virt. env 
+```
+#### Span virt. env: 
+```bash
 poetry shell
-
-## Launch notebooks
+``` 
+#### Launch notebooks:
+```bash
 poetry lab
-
+```
 
 
 
